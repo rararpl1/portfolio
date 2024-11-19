@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile & Portofolio Saya</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS untuk menambahkan style tambahan */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Bagian Header / Profile -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="c:\Users\ASUS\Pictures\580ddad8-d649-4a14-9352-e92aba543b1d.jpeg" alt="Foto Profile" class="profile-image mb-3">
+            <h1>Amalia Radisti</h1>
+            <p class="lead">Web Developer | Desainer Grafis | Freelancer</p>
+            <a href="#portfolio" class="btn btn-light">Lihat Portofolio</a>
+        </div>
+    </header>
+
+    <!-- Bagian Tentang Saya -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Tentang Saya</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Meskipun saat ini saya belum memiliki pengalaman profesional di bidang pengembangan web,
+                        saya sangat antusias untuk belajar dan berkembang di bidang ini. Saya percaya PKL ini
+                        akan menjadi kesempatan yang sangat berharga bagi saya untuk mempelajari
+                        keterampilan baru dan mengaplikasikannya dalam situasi nyata.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Selain itu, saya juga masih belajar tentang desain,meskipun saya belum prefesional tetapi
+                        saya juga bisa mendesain menggunakan figma
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bagian Portofolio -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Portofolio</h2>
+            <div class="row">
+                <!-- Proyek 1 -->
+                <div class="col-md-4 portfolio-item">
+                    <img src="c:\Users\ASUS\Pictures\Screenshots\Cuplikan layar 2024-10-19 223928.png" alt="Proyek 1" class="img-fluid">
+                    <h3 class="text-center mt-2">Judul Proyek 1</h3>
+                    <p class="text-center">Deskripsi singkat proyek 1, seperti teknologi yang digunakan atau tujuan proyek.</p>
+                </div>
+                <!-- Proyek 2 -->
+                <div class="col-md-4 portfolio-item">
+                    <img src="c:\Users\ASUS\Pictures\Screenshots\Cuplikan layar 2024-10-19 231847.png" alt="Proyek 2" class="img-fluid">
+                    <h3 class="text-center mt-2">Judul Proyek 2</h3>
+                    <p class="text-center">Deskripsi singkat proyek 2, hasil fungsi,tujuan prinsip dan metode.</p>
+                </div>
+                <!-- Proyek 3 -->
+                <div class="col-md-4 portfolio-item">
+                    <img src="c:\Users\ASUS\Pictures\Screenshots\Cuplikan layar 2024-10-19 231911.png" alt="Proyek 3" class="img-fluid">
+                    <h3 class="text-center mt-2">Judul Proyek 3</h3>
+                    <p class="text-center">Deskripsi singkat proyek 3, Mengenal Teknologi Building Information Modeling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Bagian Kontak -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Kontak</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Email: amaliaradisti50@.com</h4>
+                    <h4>Telepon: +62 881 0261 68717</h4>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Masukkan pesan Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
